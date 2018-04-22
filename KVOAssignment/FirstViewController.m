@@ -10,20 +10,25 @@
 
 @interface FirstViewController ()
 
+@property (weak, nonatomic) IBOutlet UIStepper *stepper;
 @end
 
 @implementation FirstViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)stepperTapped:(UIStepper *)sender
+{
+    NSMutableDictionary *userInfo = [[NSMutableDictionary alloc] init];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [userInfo setObject:@(sender.value) forKey:@"stepperValue"];
+    
+    NSNotification *notification = [[NSNotification alloc] initWithName:@"stepperTapped" object:self userInfo:userInfo];
+    
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
 }
-
 
 @end

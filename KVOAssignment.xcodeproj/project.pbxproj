@@ -14,6 +14,9 @@
 		CA36F890208C164500808CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA36F88F208C164500808CAF /* Assets.xcassets */; };
 		CA36F893208C164500808CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA36F891208C164500808CAF /* LaunchScreen.storyboard */; };
 		CA36F896208C164500808CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36F895208C164500808CAF /* main.m */; };
+		CA36F89E208C3C4500808CAF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36F89D208C3C4500808CAF /* ThirdViewController.m */; };
+		CA36F8A1208D1A4100808CAF /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36F8A0208D1A4100808CAF /* ForthViewController.m */; };
+		CA36F8A4208D1B9500808CAF /* customView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36F8A3208D1B9500808CAF /* customView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		CA36F892208C164500808CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA36F894208C164500808CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA36F895208C164500808CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA36F89C208C3C4500808CAF /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CA36F89D208C3C4500808CAF /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CA36F89F208D1A4100808CAF /* ForthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		CA36F8A0208D1A4100808CAF /* ForthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		CA36F8A2208D1B9500808CAF /* customView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customView.h; sourceTree = "<group>"; };
+		CA36F8A3208D1B9500808CAF /* customView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +70,18 @@
 		CA36F882208C164500808CAF /* KVOAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				CA36F8A2208D1B9500808CAF /* customView.h */,
+				CA36F8A3208D1B9500808CAF /* customView.m */,
+				CA36F89F208D1A4100808CAF /* ForthViewController.h */,
+				CA36F8A0208D1A4100808CAF /* ForthViewController.m */,
 				CA36F883208C164500808CAF /* AppDelegate.h */,
 				CA36F884208C164500808CAF /* AppDelegate.m */,
 				CA36F886208C164500808CAF /* FirstViewController.h */,
 				CA36F887208C164500808CAF /* FirstViewController.m */,
 				CA36F889208C164500808CAF /* SecondViewController.h */,
 				CA36F88A208C164500808CAF /* SecondViewController.m */,
+				CA36F89C208C3C4500808CAF /* ThirdViewController.h */,
+				CA36F89D208C3C4500808CAF /* ThirdViewController.m */,
 				CA36F88C208C164500808CAF /* Main.storyboard */,
 				CA36F88F208C164500808CAF /* Assets.xcassets */,
 				CA36F891208C164500808CAF /* LaunchScreen.storyboard */,
@@ -148,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA36F88B208C164500808CAF /* SecondViewController.m in Sources */,
+				CA36F89E208C3C4500808CAF /* ThirdViewController.m in Sources */,
+				CA36F8A1208D1A4100808CAF /* ForthViewController.m in Sources */,
 				CA36F885208C164500808CAF /* AppDelegate.m in Sources */,
 				CA36F896208C164500808CAF /* main.m in Sources */,
+				CA36F8A4208D1B9500808CAF /* customView.m in Sources */,
 				CA36F888208C164500808CAF /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
